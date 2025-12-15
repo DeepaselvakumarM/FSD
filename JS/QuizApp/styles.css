@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.quiz-container {
+    width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.correct {
+    background-color: #28a745;
+}
+
+.wrong {
+    background-color: #dc3545;
+}
+
+#next-btn {
+    display: none;
+}

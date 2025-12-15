@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+
+    <form>
+        <label>Name</label>
+        <input type="text" class="name"/>
+        <p class="nameerror"></p>
+
+        <label>Email</label>
+        <input type="text" class="email"/>
+        <p class="emailerror"></p>
+
+        <label>Password</label>
+        <input type="password" class="password"/>
+        <p class="passerror"></p>
+
+        <button class="submit" disabled>Submit</button>
+    </form>
+
+<script>
+    // Selecting DOM elements
+    const nameInput = document.querySelector(".name");
+    const emailInput = document.querySelector(".email");
+    const passInput = document.querySelector(".password");
+    const button = document.querySelector(".submit");
+
+    const nameError = document.querySelector(".nameerror");
+    const emailError = document.querySelector(".emailerror");
+    const passError = document.querySelector(".passerror");
+
+
+    // Validation Functions
+    function validateName() {
+        let value = nameInput.value.trim();
+
+        if (value === "") {
+            nameError.textContent = "Name cannot be empty";
+            return false;
+        }
+        if (value.length < 3) {
+            nameError.textContent = "Name must be at least 3 characters";
+            return false;
+        }
+        
+        nameError.textContent = "";
+        return true;
+    }
+
+
+    function validateEmail() {
+        let value = emailInput.value.trim();
+
+        if (value === "") {
+            emailError.textContent = "Email cannot be empty";
+            return false;
+        }
+        if (!value.includes("@") || !value.includes(".")) {
+            emailError.textContent = "Email is not valid";
+            return false;
+        }
+        
+        emailError.textContent = "";
+        return true;
+    }
+
+
+    function validatePassword() {
+        let value = passInput.value.trim();
+
+        if (value === "") {
+            passError.textContent = "Password cannot be empty";
+            return false;
+        }
+        if (value.length < 6) {
+            passError.textContent = "Password must be at least 6 characters";
+            return false;
+        }
+
+        passError.textContent = "";
+        return true;
+    }
+
+
+    // Final validation check
+    function validateForm() {
+        const validName = validateName();
+        const validEmail = validateEmail();
+        const validPassword = validatePassword();
+
+        if (validName && validEmail && validPassword) {
+            button.disabled = false;
+        } else {
+            button.disabled = true;
+        }
+    }
+
+
+    // Event listeners
+    nameInput.addEventListener("keyup", validateForm);
+    emailInput.addEventListener("keyup", validateForm);
+    passInput.addEventListener("keyup", validateForm);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="search"placeholder="Search"/>
+
+<ul id="items">
+   <li>Mobile</li>
+  <li>Laptop</li>
+  <li>Tablet</li>
+  <li>Headphones</li>
+</ul>
+    
+
+<script>
+    let inp=document.getElementById("search")
+    inp.addEventListener('keyup',(e)=>{
+        let filter=e.target.value.toLowercase()
+        let items = document.querySelectorAll("#items li");
+       items.forEach((item)=>{
+        if(item.textContent.toLowercase().includes(filter)){
+            item.style.display=""
+        }
+        else{
+            item.style.display="none"
+        }
+       })
+
+    })
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

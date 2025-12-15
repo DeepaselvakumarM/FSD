@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dashboard{
+            display: grid;
+            grid-template-columns: 220px 1fr;
+            grid-template-rows: 4px 1 fr;
+            grid-template-areas: "header header""sidebar main";
+            height: 100vh;
+      
+        }
+
+        .header{
+            grid-area: header;
+            background: black;
+            color: white;
+        }
+
+        .sidebar { grid-area: sidebar; background: #333; color: white; }
+.main    { grid-area: main; background: #f5f5f5; }
+
+.card{
+    background: white;
+    width: 20px;
+    height: 120px;
+    padding: 46px;
+    border: 2px soild black;
+    margin: 20px;
+}
+
+.main{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+
+
+    </style>
+</head>
+<body>
+    
+<div class="dashboard">
+    <header class="header">dashboard</header>
+
+    <aside class="sidebar">
+        <p>Home</p>
+        <p>Users</p>
+        <p>Settings</p>
+    </aside>
+
+    <main class="main">
+    <div class="card">Users</div>
+      <div class="card">Orders</div>
+      <div class="card">Revenue</div>
+    </main>
+</div>
+
+
+</body>
+</html>
