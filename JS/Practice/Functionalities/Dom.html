@@ -1,52 +1,57 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.text{
+    background-color: aqua;
+}
+    </style>
+</head>
+<body>
+    <p class="text">Hi</p>
+    <p class="texts">Home</p>
+
+    <script>
+        let input=document.querySelectorAll(".text")
+        input.textContent="hello"
+        
+
+    </script>
+
+</body>
+</html> -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .disabled{
+            background-color: lightcyan;
+
+        }
+    </style>
 </head>
 <body>
+    <button id="actionBtn">Action</button>
+<button id="toggleBtn">Enable / Disable</button>
 
-    <input type="text"class="input"/>
-    <br>
-    <button class="add">ADD</button>
-    <button class="change">CHANGE</button>
-    <button class="remove">REMOVE</button>
-    <br>
-    <ul id="elements">
-
-    </ul>
 
 <script>
+    const actionBtn = document.querySelector("#actionBtn");
+const toggleBtn = document.querySelector("#toggleBtn");
 
-   const inputs=document.querySelector(".input"
-   )
-   const ele=document.getElementById("elements")
+toggleBtn.addEventListener("click", () => {
+  actionBtn.classList.toggle("disabled");
+});
 
-function add(){
-    const list=document.createElement("li")
-    const insert=inputs.value
-    list.textContent=insert
-    ele.appendChild(list)
-    inputs.value=""
-    
-}
- document.querySelector(".add").addEventListener("click",add)
-
-
- function change(){
-    let firts=ele.firstElementChild
-    firts.textContent="Changes"
-    firts.style.color="red"
- }
- document.querySelector(".change").addEventListener("click", change);
-
-
- function remove(){
-    ele.removeChild(ele.lastElementChild)
-   }
-
-document.querySelector(".remove").addEventListener("click", remove);
 </script>
+
 </body>
 </html>
