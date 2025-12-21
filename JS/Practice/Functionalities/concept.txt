@@ -1,0 +1,336 @@
+Great question 👍
+Below is a **carefully curated list of 50 most-asked JavaScript interview questions** focused **only** on:
+
+* **Strings**
+* **Arrays / Lists**
+* **Numbers**
+* **Decision Making (conditions & logic)**
+
+These are **very common for fresher & junior JS roles** and **problem-solving rounds**.
+
+---
+
+# 🔹 STRING (10 Questions)
+
+1. Reverse a string without using built-in functions
+2. Check if a string is a palindrome
+3. Count vowels and consonants in a string
+4. Find the first non-repeating character
+5. Check if two strings are anagrams
+6. Count occurrences of each character in a string
+7. Find the longest word in a sentence
+8. Remove duplicate characters from a string
+9. Check if a string contains only digits
+10. Find the frequency of a substring inside a string
+
+---
+
+# 🔹 ARRAY / LIST (20 Questions)
+
+11. Find the largest and smallest element in an array
+12. Remove duplicate elements from an array
+13. Find the second largest element
+14. Rotate an array by K positions
+15. Reverse an array in place
+16. Find the sum of array elements
+17. Find missing number in an array of 1…N
+18. Check if an array is sorted
+19. Merge two sorted arrays
+20. Find common elements between two arrays
+21. Count frequency of each element in an array
+22. Move all zeros to the end
+23. Find duplicate elements in an array
+24. Find the first repeating element
+25. Find intersection and union of two arrays
+26. Flatten a nested array
+27. Find max subarray sum (basic)
+28. Separate even and odd numbers
+29. Sort an array without using `.sort()`
+30. Find index of an element manually
+
+---
+
+# 🔹 NUMBER (10 Questions)
+
+31. Check if a number is prime
+32. Find factorial of a number
+33. Check if a number is even or odd
+34. Find Fibonacci series up to N terms
+35. Check if a number is an Armstrong number
+36. Reverse a number
+37. Check if a number is palindrome
+38. Count digits in a number
+39. Find GCD of two numbers
+40. Find LCM of two numbers
+
+---
+
+# 🔹 DECISION MAKING / LOGIC (10 Questions)
+
+41. Check if a year is a leap year
+42. Find largest among three numbers
+43. Check eligibility to vote
+44. Grade calculation using marks
+45. Simple calculator using switch case
+46. Check if a character is vowel or consonant
+47. Login validation (username & password check)
+48. Find profit or loss
+49. Check if number is positive, negative, or zero
+50. Traffic signal decision (if-else logic)
+
+---
+
+## 🧠 Interview Tip (Very Important)
+
+> 🔥 If you can **code + explain logic clearly** for **any 30–35 of these**,
+> you are **100% safe** for fresher JS interviews.
+
+---
+
+## ✅ Next Step (Recommended)
+
+I can:
+
+* Solve **each category step-by-step**
+* Give **clean interview-ready code**
+* Create a **2-day revision plan**
+* Conduct a **mock JS interview** with you
+
+👉 Just tell me **what you want next** 😊
+
+
+
+
+
+Great question 👍
+When interviewers say **“ability to apply fundamentals to problem-solving”**, they are **not looking for advanced frameworks or tricky APIs**.
+They want to see **how you THINK using basics**.
+
+Below is a **clear breakdown of what kinds of questions they usually ask**, **why they ask them**, and **how you should approach them** as a fresher.
+
+---
+
+## 🔹 What interviewers actually test
+
+They test whether you can:
+
+* Use **loops, conditions, variables**
+* Work with **arrays, strings, numbers**
+* Break a problem into **small logical steps**
+* Write **clean, readable JS**
+* Explain **WHY**, not just **WHAT**
+
+---
+
+## 🔹 1️⃣ String-based Problem-Solving Questions
+
+These test:
+✔ loops
+✔ conditions
+✔ indexing
+
+### Possible Questions
+
+* Reverse a string (no built-ins)
+* Check palindrome
+* Count vowels
+* First non-repeating character
+* Remove duplicate characters
+* Count frequency of characters
+
+👉 **What interviewer observes**
+
+> Can you traverse a string and apply conditions correctly?
+
+---
+
+## 🔹 2️⃣ Array-based Logical Questions
+
+These test:
+✔ loops
+✔ comparisons
+✔ memory usage
+
+### Possible Questions
+
+* Find largest / smallest element
+* Second largest
+* Move zeros to end
+* Remove duplicates
+* Rotate an array
+* Merge two arrays
+* Find missing number
+
+👉 **What interviewer observes**
+
+> Can you manipulate data step-by-step?
+
+---
+
+## 🔹 3️⃣ Number-based Logic Questions
+
+These test:
+✔ mathematical thinking
+✔ condition checks
+
+### Possible Questions
+
+* Prime number / prime range
+* Factorial
+* Fibonacci
+* Armstrong number
+* Palindrome number
+* GCD / LCM
+
+👉 **What interviewer observes**
+
+> Do you understand loops + math logic?
+
+---
+
+## 🔹 4️⃣ Decision-Making & Control Flow Questions
+
+These test:
+✔ if-else
+✔ switch
+✔ comparisons
+
+### Possible Questions
+
+* Leap year check
+* Largest of 3 numbers
+* Grade calculation
+* Even/odd
+* Voting eligibility
+
+👉 **What interviewer observes**
+
+> Can you handle multiple conditions cleanly?
+
+---
+
+## 🔹 5️⃣ Apply Fundamentals to a Real-World Scenario
+
+These are **very common now**.
+
+### Example Questions
+
+* Validate a login (username & password)
+* Filter products by price
+* Calculate cart total
+* Find highest scoring student
+* Detect duplicate user IDs
+* Search items in a list
+
+👉 **What interviewer observes**
+
+> Can you convert real-life problems into logic?
+
+---
+
+## 🔹 6️⃣ “What If” Logical Thinking Questions
+
+These test:
+✔ edge cases
+✔ reasoning
+
+### Examples
+
+* What if array is empty?
+* What if input is negative?
+* What if values are equal?
+* What if user enters invalid data?
+
+👉 **What interviewer observes**
+
+> Are you thinking beyond happy paths?
+
+---
+
+## 🔹 7️⃣ Debugging / Fix the Code
+
+Very common for freshers.
+
+### Example
+
+```js
+for(let i=0;i<=arr.length;i++){
+   console.log(arr[i])
+}
+```
+
+Questions:
+
+* What is wrong?
+* How will you fix it?
+
+👉 **What interviewer observes**
+
+> Can you reason about loops and boundaries?
+
+---
+
+## 🔹 8️⃣ Explain Your Approach (MOST IMPORTANT)
+
+They may ask:
+
+* Why did you choose this loop?
+* Why did you use this condition?
+* Can this be optimized?
+
+👉 **Correct mindset**
+
+> “I chose this approach because it’s simple and readable.”
+
+---
+
+## 🔹 How YOU should answer in interview
+
+Use this format 👇
+
+### STAR-Like (Simple Version)
+
+1. **Understand** the problem
+2. **Explain logic** in words
+3. **Write code**
+4. **Dry run with example**
+5. **Mention edge cases**
+
+---
+
+## 🔹 Sample Interview Question
+
+**Q:** Find prime numbers between 1 and 50
+
+**Expected thinking**
+
+* Loop through numbers
+* Check each for divisibility
+* Print if prime
+
+Not fancy. Just **correct logic**.
+
+---
+
+## 🔹 Final Truth (Very Important)
+
+> ❌ They don’t expect perfect code
+> ✅ They expect **clear thinking + fundamentals**
+
+If you can:
+
+* Write loops confidently
+* Use conditions correctly
+* Explain your steps clearly
+
+👉 **You will pass**.
+
+---
+
+## 🔥 Want me to do next?
+
+* Mock JS interview (I ask → you answer)
+* 1-day revision plan before interview
+* Common trick questions & mistakes
+
+Just tell me 👍
